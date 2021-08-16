@@ -1,0 +1,5 @@
+INSERT INTO USER (ID, FIRST_NAME, LAST_NAME, BIRTH_DATE, EMAIL, PHONE_NUMBER, CREATED_DATE, UPDATED_DATE) VALUES
+(1,'Ivan','Ivanov','2019-05-04','ivan_@mail.ru', 017612345678,'2001-02-04','2001-02-04'),
+(2,'Nikolay','Nikolayev','2000-06-04','nikolay@mail.ru', 017612345679,'2001-02-04','2001-02-04'),
+(3,'Stas','Stasov','2019-03-04','stas@mail.ru', 017612345677,'2001-02-04','2001-02-04'),
+(4,'Mark','Markov','2001-02-04', 'mark@mail.ru', 017612345688,'2001-02-04','2001-02-04');

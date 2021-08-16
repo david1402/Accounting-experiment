@@ -1,0 +1,24 @@
+UPDATE USER_ACCOUNT
+SET USER_ID = 3
+WHERE ID = 3;
+
+INSERT INTO USER (ID, FIRST_NAME, LAST_NAME, BIRTH_DATE, EMAIL, PHONE_NUMBER, CREATED_DATE, UPDATED_DATE) VALUES
+(5,'Genadii','Rokov','1992-05-04','rokov_@mail.ru', 017612345678,'2001-02-04','2001-02-04'),
+(6,'Wilhelm','Robinson','1998-06-04','robinson@mail.ru', 017612345679,'2001-02-04','2001-02-04'),
+(7,'Fridrich','Muller','2019-03-04','muller@mail.ru', 017612345677,'2001-02-04','2001-02-04'),
+(8,'Mark','Twen','1986-02-04', 'twen@mail.ru', 017612345688,'2001-02-04','2001-02-04'),
+(9,'Robin','Dorov','1991-05-04','dorov@mail.ru', 017612345678,'2001-02-04','2001-02-04'),
+(10,'Natali','Robinson','1997-06-04','natalirobinson@mail.ru', 017612345679,'2001-02-04','2001-02-04'),
+(11,'Iulia','Muller','1984-03-04','iulia_muller@mail.ru', 017612345677,'2001-02-04','2001-02-04'),
+(12,'Kira','Twen','1981-02-04', 'twen_kira@mail.ru', 017612345688,'2001-02-04','2001-02-04');
+
+
+INSERT into USER_ACCOUNT(ID,USER_ID,REGISTRATION_DATE,ACCOUNT_ROLE) VALUES
+(5,5,'2019-05-04','STUDENT'),
+(6,6,'2019-05-04','STUDENT'),
+(7,7,'2019-05-04','TEACHER '),
+(8,8,'2019-05-04','STUDENT'),
+(9,9,'2019-05-04','STUDENT'),
+(10,10,'2019-05-04','STUDENT'),
+(11,11,'2019-05-04','TEACHER '),
+(12,12,'2019-05-04','STUDENT');
